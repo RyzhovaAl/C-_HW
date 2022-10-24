@@ -7,7 +7,7 @@ double FindX(double a1, double c1, double a2, double c2)
 {
     double x = 0;
     {
-        x = (-c2 + c1) / (-a1 + a2);  
+        x = (c1 - c2) / (a2 - a1);  
     }
     return x;
 }
